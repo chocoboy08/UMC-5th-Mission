@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="signUp.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="background">
+        <div class="modal_background">
+            <div class="modal_window">
+                <div>가입 성공!</div>
+                <div>umc 챌린저 가입을 축하합니다!!</div>
+                <button class="modal_close">닫기</button>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="title">회원가입</div>
+            <hr class="line">
+            <div class="signup-form">
+                <div class="input">
+                    <div class="input_key">
+                        이름
+                    </div>
+                    <input type="text" class="input_value" id="name" value="" onchange="handleInput('name')"/>
+                    <div class="message error"></div>
+                </div>
+                <div class="input">
+                    <div class="input_key">
+                        닉네임
+                    </div>
+                    <input type="text" class="input_value"id="nickname" value="" onchange="handleInput('nickname')"/>
+                    <div class="message error"></div>
+                </div>
+                <div class="input">
+                    <div class="input_key">
+                        이메일
+                    </div>
+                    <input type="text" class="input_value"id="email" value=""onchange="handleInput('email')" />
+                    <div class="message error"></div>
+                </div>
+                <div class="input">
+                    <div class="input_key">
+                        비밀번호
+                    </div>
+                    <input type="password" class="input_value"id="password" value=""onchange="handleInput('password')"/>
+                    <div class="message error"></div>
+                </div>
+                <div class="input">
+                    <div class="input_key">
+                        비밀번호 확인
+                    </div>
+                    <input type="password" class="input_value"id="check_password" value=""onchange="handleInput('check_password')"/>
+                    <div class="message error"></div>
+                </div>
+                <button class="signup_btn" disabled >가입하기</button>
+            </div>
+        </div>       
+     </div>
+    <script src="./signUp.js"></script>
+</body>
+</html>

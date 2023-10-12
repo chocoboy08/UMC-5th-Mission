@@ -1,11 +1,11 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Signup from "./SignUp";
+import MovieList from "./movie/MovieList";
 
 function App() {
   return (
     <>
-      <Signup />
+      <MovieList />
     </>
   );
 }

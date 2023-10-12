@@ -7,7 +7,6 @@ const Detail = styled.div({
   backgroundColor: "rgba(0, 0, 0,0.5)",
   height: "100%",
   color: "white",
-  //   padding: "20px 10px",
 });
 const Info = styled.div({
   overflow: "scroll",
@@ -28,7 +27,7 @@ const Group = styled.div({
   backgroundColor: "whitesmoke",
   height: "2.5rem",
 });
-function Movie({ title, img, rate, detail, ishover }) {
+function Movie({ title, img, rate, detail }) {
   const [isHovering, setIsHovering] = useState(false);
   const handleMouseHover = (e) => {
     if (e.type == "mouseenter") setIsHovering(true);

@@ -17,18 +17,6 @@ const MovieContainer = styled.div({
 });
 
 function MovieList() {
-  //   useEffect(() => {
-  //     async function GetMovies() {
-  //       const res = await axios.get(
-  //         "http://www.kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json?key=0ba952f81b9c1ca38f908b0236233a89&targetDt=20231011&itemPerPage=8"
-  //       );
-  //       const movieList = res.data.boxOfficeResult.dailyBoxOfficeList[0].movieNm;
-
-  //     }
-  //     GetMovies().then(() => {
-  //       console.log(movies);
-  //     });
-  //   }, []);
   return (
     <Background>
       <MovieContainer>

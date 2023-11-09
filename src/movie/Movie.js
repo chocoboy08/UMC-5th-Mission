@@ -32,7 +32,6 @@ function Movie({ title, img, rate, detail }) {
   const handleMouseHover = (e) => {
     if (e.type == "mouseenter") setIsHovering(true);
     else if (e.type == "mouseleave") setIsHovering(false);
-    console.log(e);
   };
   return (
     <Wrapper onMouseEnter={handleMouseHover} onMouseLeave={handleMouseHover}>

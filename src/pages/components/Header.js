@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { styled } from "styled-components";
+import LoginControl from "./LoginControl";
 
 const Wrapper = styled.div({
   backgroundColor: "#02294a",
@@ -47,6 +48,7 @@ function Header() {
           );
         })}
       </MenuList>
+      <LoginControl />
     </Wrapper>
   );
 }
